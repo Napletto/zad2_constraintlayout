@@ -1,0 +1,10 @@
+android:id="@+id/button9" - nadanie nazwy "button9" dla przycisku<br>
+android:layout_width="wrap_content" - szerokość przycisku jest zależna od jego zawartości<br>
+android:layout_height="wrap_content" - wysokość przycisku jest zależna od jego zawartości<br>
+android:text="Button" - napis w przycisku to "Button"<br>
+app:layout_constraintBottom_toBottomOf="parent" - ustalenie dolnej krawędzi przycisku względem dolnej krawędzi rodzica (w tym przypadku dół ekranu)<br>
+app:layout_constraintEnd_toEndOf="parent" - ustalenie prawej krawędzi przycisku względem prawej krawędzi rodzica <br>
+app:layout_constraintStart_toStartOf="parent" - ustalenie lewej krawędzi przycisku względem lewej krawędzi rodzica <br>
+app:layout_constraintTop_toTopOf="parent" - ustalenie górnej krawędzi przycisku względem górnej krawędzi rodzica <br>
+app:layout_constraintHorizontal_bias="0.75" - przesunięcie przycisku o 75% w stronę prawej krawędzi<br>
+app:layout_constraintVertical_bias="0.25" - przesunięcie przycisku o 25% w stronę górnej krawędzi<br>
